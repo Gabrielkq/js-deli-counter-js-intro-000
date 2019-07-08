@@ -20,7 +20,8 @@ function takeANumber(line, name){
   var customerHistory = [];
   line.push(name);
   customerHistory.push(name);
-  return `You are customer #${customerHistory.length} in our serving history`;
+  
+  return `You are customer #${customerHistory.length+1} in our serving history`;
 // return `Welcome, ${name}. You are number `+ length + ` in line.`;
 }
 
