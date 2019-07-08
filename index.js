@@ -12,7 +12,7 @@ function currentLine(line){
 
 
 
-
+ //var customerHistory = [];
 var katzDeliLine = [];
 
 function takeANumber(line, name){  
