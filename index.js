@@ -12,16 +12,18 @@ function currentLine(line){
 
 
 
- //var customerHistory = [];
+ var customerHistory = [];
 var katzDeliLine = [];
 
 function takeANumber(line, name){  
   let length = line.length + 1;
-  var customerHistory = [];
   line.push(name);
   customerHistory.push(name);
+  if (customerHistory.length===1){
+  return `You are customer #${customerHistory.length} in our serving history`;}
+  else {return `You are customer #${customerHistory.length+1} in our serving history`;}
   
-  return `You are customer #${customerHistory.length+1} in our serving history`;
+  
 // return `Welcome, ${name}. You are number `+ length + ` in line.`;
 }
 
