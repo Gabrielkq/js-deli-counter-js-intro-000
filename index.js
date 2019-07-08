@@ -16,9 +16,9 @@ function currentLine(line){
 var katzDeliLine = [];
 
 function takeANumber(line, name){  
-  let length = line.length + 1;
+ // let length = line.length + 1;
   line.push(name);
- return `Welcome, ${name}. You are number `+ length + ` in line.`;
+ return `Welcome, ${name}. You are number ${ in line.`;
 }
 
 function nowServing(katzDeliLine){
