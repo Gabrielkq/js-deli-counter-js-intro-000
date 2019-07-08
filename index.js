@@ -17,8 +17,11 @@ var katzDeliLine = [];
 
 function takeANumber(line, name){  
   let length = line.length + 1;
+  var customerHistory = [];
   line.push(name);
- return `Welcome, ${name}. You are number `+ length + ` in line.`;
+  customerHistory.push(name);
+  return `You are customer #${customerHistory.length} in our serving history`;
+// return `Welcome, ${name}. You are number `+ length + ` in line.`;
 }
 
 function nowServing(katzDeliLine){
